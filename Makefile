@@ -1,6 +1,6 @@
 NAME = fractol
 
-SRC	=	fractol.c
+SRC	=	fractol.c utils.c ft_printf.c
 
 CFLAGS	= -Wall -Wextra -Werror
 
@@ -19,7 +19,7 @@ OBJS	= $(SRC:.c=.o)
 all	: $(NAME)
 
 $(NAME) : $(OBJS)
-	$(CC) $(OBJS) -lmlx -framework OpenGL -framework AppKit -o $(NAME) 
+	$(CC) $(OBJS) -lmlx -framework OpenGL -framework AppKit -Ofast -o $(NAME) 
 
 clean :
 	$(RM) $(OBJS)
