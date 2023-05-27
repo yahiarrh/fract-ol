@@ -6,7 +6,7 @@
 /*   By: yrrhaibi <yrrhaibi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/24 14:56:02 by yrrhaibi          #+#    #+#             */
-/*   Updated: 2023/05/27 14:31:15 by yrrhaibi         ###   ########.fr       */
+/*   Updated: 2023/05/27 16:15:29 by yrrhaibi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ void	init(t_info *info)
 	info->endy = 2;
 	info->scale_key = 0.2;
 	info->scale = 0.5;
-	info->max_iter = 100;
+	info->max_iter = 70;
 	info->color = 50;
 	info->ms = 1;
 }
