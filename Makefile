@@ -1,6 +1,6 @@
 NAME = fractol
 
-SRC	=	fractal.c fractol.c ft_printf.c rasm.c  utils.c keys.c mouse.c
+SRC	=	fractal.c fractol.c ft_printf.c draw.c  utils.c keys.c mouse.c
 
 CFLAGS	= -Wall -Wextra -Werror
 
