@@ -6,7 +6,7 @@
 /*   By: yrrhaibi <yrrhaibi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/21 17:52:38 by yrrhaibi          #+#    #+#             */
-/*   Updated: 2023/05/27 15:07:49 by yrrhaibi         ###   ########.fr       */
+/*   Updated: 2023/05/27 15:23:16 by yrrhaibi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,6 @@ int	main(int ac, char **av)
 		mlx_hook(info.mlx_win, 17, 0, boom, &info);
 		mlx_loop(info.mlx);
 	}
-	else
+	else 
 		ft_printf("Please Enter a Fractal\n");
 }
