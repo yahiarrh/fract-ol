@@ -1,6 +1,6 @@
 NAME = fractol
 
-SRC	=	fractol.c utils.c ft_printf.c
+SRC	=	fractal.c fractol.c ft_printf.c rasm.c  utils.c keys.c mouse.c
 
 CFLAGS	= -Wall -Wextra -Werror
 
@@ -11,7 +11,6 @@ RM 		= rm  -rf
 HEADERM =  fractol.h
 
 OBJS	= $(SRC:.c=.o)
-
 
 %.o: %.c $(HEADERM)
 	$(CC) -Wall -Wextra -Werror -Imlx -c $< -o $@
