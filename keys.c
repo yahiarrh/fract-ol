@@ -6,7 +6,7 @@
 /*   By: yrrhaibi <yrrhaibi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/27 14:55:50 by yrrhaibi          #+#    #+#             */
-/*   Updated: 2023/05/27 15:03:35 by yrrhaibi         ###   ########.fr       */
+/*   Updated: 2023/05/28 14:25:58 by yrrhaibi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,6 +71,7 @@ int	keybord(int key, t_info *info)
 		info->starty = -2;
 		info->endy = 2;
 		info->scale_key = 0.2;
+		info->color = 50;
 		drawing(info);
 	}
 	return (key);

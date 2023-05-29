@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   rasm.c                                             :+:      :+:    :+:   */
+/*   draw.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yrrhaibi <yrrhaibi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/27 14:20:10 by yrrhaibi          #+#    #+#             */
-/*   Updated: 2023/05/27 14:32:31 by yrrhaibi         ###   ########.fr       */
+/*   Updated: 2023/05/28 19:33:17 by yrrhaibi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,10 @@ int	create_trgb(int i, t_info *info)
 	int	g;
 	int	b;
 
-	if (i >= info->max_iter)
+	if (i == info->max_iter)
 		return (0);
-	b = 5 * i * (cos(info->color) + 1);
-	g = 4 * i * (1 + sin(info->color) + 1);
+	b = 8 * i * (1 + cos(info->color));
+	g = 10 * i * (1 + sin(info->color) + 1);
 	r = i * (1 - cos(info->color));
 	return ((r << 16 | g << 8 | b));
 }
