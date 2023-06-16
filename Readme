@@ -1,9 +1,3 @@
-# Fract'ol @ 42
-
-![screenshot](/screens/screen.png?raw=true)
-
-A multithreaded fractal renderer.
-
 ## Features
 * Render different fractals: mandelbrot, julia, burning ship
 * Different color schemes (rotated and linear)
