@@ -11,8 +11,8 @@
 ## Compiling and running
 Run `make`. An executable will compile. Runs on OS X and Linux.
 
-Run it with `./fractol [fractal]`. Possible fractals are: `mandelbrot`, `julia`,
-`burningship`. Cycle color-schemes with `1-9` on the top row. Increase/decrease
+Run it with `./fractol [fractal]`. Possible fractals are: `Mandelbrot`, `Julia`,
+`Tricorn`. Cycle color-schemes with `1-9` on the top row. Increase/decrease
 maximum iterations with `*` and `/` on the numpad. Zoom in and out with the
 mousewheel or with `+` and `-`. Press `Enter` on the numpad to switch between
 smooth coloring and linear coloring.
